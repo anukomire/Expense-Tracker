@@ -167,6 +167,9 @@ foreach ($expenses as $expense) {
         <a href="index.php">
             <button>View All Expenses</button>
         </a>
+        <a href="report_form.php">
+            <button>Monthly Report</button>
+        </a>
 
         <div class="chart-container">
             <!-- Chart for Expenses by Category (using Chart.js) -->
