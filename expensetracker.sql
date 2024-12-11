@@ -1,3 +1,6 @@
+/*start xampp and apache then
+click admin in mysql
+write this code in expensetracker so that it will create a table expen and enter data down i am gving few examples how to insert data*/
 CREATE TABLE expen (
     id INT(11) AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -7,7 +10,6 @@ CREATE TABLE expen (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-/*write this code in expensetracker so that it will create a table expen and enter data down i am gving few examples how to insert data*/
 /*-- Insert 100 rows of random expense data*/
 INSERT INTO expen (title, category, amount, expense_date) VALUES
 ('Groceries', 'Food', 500.75, '2024-11-01'),
