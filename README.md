@@ -12,4 +12,5 @@ In SQL u should create a database Name expensetracker and inside the database on
 expensetracker
   expen
 After creating link database.php to expensetracker database 
+To access the report_form.php you need to open path C:/xampp/htdocs/expense-tracker/libs/TCPDF-main(tcpdfmain)/tcpdf.php
      
